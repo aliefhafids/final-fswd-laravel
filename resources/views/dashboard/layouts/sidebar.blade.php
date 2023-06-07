@@ -17,10 +17,16 @@
         <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
             <span>Administrator</span>
         </h6>
-            <li class="nav-item">
+        <li class="nav-item">
             <a class="nav-link {{ Request::is('dashboard/categories*') ? 'active' : ''}}" href="/dashboard/categories">
                 <i class="icon-layout menu-icon"></i>
                 <span class="menu-title">Categories</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link {{ Request::is('dashboard/users*') ? 'active' : ''}}" href="/dashboard/users">
+                <i class="icon-layout menu-icon"></i>
+                <span class="menu-title">Users</span>
             </a>
         </li>
         @endcan

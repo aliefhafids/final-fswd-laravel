@@ -7,9 +7,9 @@
             <div class="col-lg-9 grid-margin stretch-card">
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="card-title">Basic Table</h4>
+                        <h4 class="card-title">Category Table</h4>
                         <p class="card-description">
-                            Add class <code>.table</code>
+                        Table categories data stored in the database, this data can be input via the create data form.
                         </p>
                         <a href="/dashboard/categories/create" class="btn btn-primary btn-icon-text">
                         <i class="ti-file btn-icon-prepend"></i>    

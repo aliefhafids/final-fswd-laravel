@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\AdminUserController;
 use App\Http\Controllers\AdminCategoryController;
 use App\Http\Controllers\DashboardProductController;
 
@@ -40,3 +41,4 @@ Route::get('/dashboard', function () {
 Route::resource('/dashboard/products', DashboardProductController::class)->middleware('auth');
 
 Route::resource('/dashboard/categories', AdminCategoryController::class)->except('show');
+Route::resource('/dashboard/users', AdminUserController::class)->except('show');

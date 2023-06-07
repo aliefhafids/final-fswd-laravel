@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,9 +11,9 @@
     <link rel="stylesheet" href="css/home/custom.css">
     <!-- bootstrap.min.css -->
     <link rel="stylesheet" href="css/home/bootstrap.min.css">
-	<!-- font-awesome -->
+    <!-- font-awesome -->
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-    
+
     <!-- AOS -->
     <link rel="stylesheet" href="css/home/aos.css">
 </head>
@@ -33,40 +34,46 @@
 
                     @else
                     <div class="col-6 align-self-center text-right">
-                        <a href="/login" class="text-white">Login</a>
+                        <a href="/login" class="text-white">LOGIN</a>
                     </div>
                     @endauth
                 </div>
             </header>
-            <h1 data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="display-3 text-white font-weight-bold my-5">
-            	A New Way<br>
-            	To Start Business
+            <h1 data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true"
+                class="display-3 text-white font-weight-bold my-5">
+                Distortion<br>
+                Mobile App
             </h1>
-            <p data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="lead text-white my-4">
-                Lorem ipsum dolor sit amet, id nec enim autem oblique, ei dico mentitum duo.
-                <br> Illum iusto laoreet his te. Lorem partiendo mel ex. Ad vitae admodum voluptatum per.
+            <p data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true"
+                class="lead text-white my-4">
+                A Mobile Application that facilitates the purchase of clothes <br>
+                available at Distortion Stores.
             </p>
-            <a href="#" data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="btn my-4 font-weight-bold atlas-cta cta-green">Get Started</a>
+            <a href="#" data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true"
+                class="btn my-4 font-weight-bold atlas-cta cta-green">Get Started</a>
         </div>
     </div>
     <!-- three-blcok -->
     <div class="container my-5 py-2">
         <h2 class="text-center font-weight-bold my-5">Smartest protection for your site</h2>
         <div class="row">
-            <div data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center">
-                <img src="img/smart-protect-1.jpg" alt="Anti-spam" class="mx-auto">
-                <h4>Anti-spam</h4>
-                <p>Lorem ipsum dolor sit amet porro his no his deleniti</p>
+            <div data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" data-aos-once="true"
+                class="col-md-4 text-center">
+                <img src="img/smart-protect-1.png" alt="Anti-spam" class="mx-auto">
+                <h4>effectiveness</h4>
+                <p>provide effectiveness for monitoring.</p>
             </div>
-            <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center">
-                <img src="img/smart-protect-2.jpg" alt="Phishing Detect" class="mx-auto">
-                <h4>Phishing Detect</h4>
-                <p>Ne error antiopam usu. Sed vocen concludaturque ea</p>
+            <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true"
+                class="col-md-4 text-center">
+                <img src="img/smart-protect-2.png" alt="Phishing Detect" class="mx-auto">
+                <h4>Accurate</h4>
+                <p>The inputted time data cannot be changed</p>
             </div>
-            <div data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center">
-                <img src="img/smart-protect-3.jpg" alt="Smart Scan" class="mx-auto">
-                <h4>Smart Scan</h4>
-                <p>Et usu ocurreret elaboraret doctus prodesse assueverit.</p>
+            <div data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000" data-aos-once="true"
+                class="col-md-4 text-center">
+                <img src="img/smart-protect-3.png" alt="Smart Scan" class="mx-auto">
+                <h4>Real time</h4>
+                <p>Display real time in monitoring</p>
             </div>
         </div>
     </div>
@@ -76,11 +83,11 @@
             <div class="row justify-content-between text-center text-md-left">
                 <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="col-md-6">
                     <h2 class="font-weight-bold">Take a look inside</h2>
-                    <p class="my-4">Te iisque labitur eos, nec sale argumentum scribentur no,
-                        <br> augue disputando in vim. Erat fugit sit at, ius lorem deserunt deterruisset no.</p>
+                    <p class="my-4">Home page of distortion app, this app show spalsh screen and then navigation to login form</p>
                     <a href="#" class="btn my-4 font-weight-bold atlas-cta cta-blue">Learn More</a>
                 </div>
-                <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="col-md-6 align-self-center">
+                <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true"
+                    class="col-md-6 align-self-center">
                     <img src="img/feature-1.png" alt="Take a look inside" class="mx-auto d-block">
                 </div>
             </div>
@@ -98,29 +105,30 @@
                     </p>
                     <a href="#" class="btn my-4 font-weight-bold atlas-cta cta-blue">Learn More</a>
                 </div>
-                <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="col-md-6 align-self-center flex-md-first">
+                <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true"
+                    class="col-md-6 align-self-center flex-md-first">
                     <img src="img/feature-2.png" alt="Safe and reliable" class="mx-auto d-block">
                 </div>
             </div>
         </div>
     </div>
 
-	<!-- copyright -->
-	<div class="jumbotron jumbotron-fluid" id="copyright">
+    <!-- copyright -->
+    <div class="jumbotron jumbotron-fluid" id="copyright">
         <div class="container">
             <div class="row justify-content-between">
-            	<div class="col-md-6 text-white align-self-center text-center text-md-left my-2">
+                <div class="col-md-6 text-white align-self-center text-center text-md-left my-2">
                     Copyright © 2023 aliefhafids.
                 </div>
             </div>
         </div>
     </div>
-    
+
     <!-- AOS -->
     <script src="js/aos.js"></script>
     <script>
-      AOS.init({
-      });
+        AOS.init({});
+
     </script>
 </body>
 
